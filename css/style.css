@@ -77,8 +77,6 @@ img {
 
 .header-flex {
   display: flex;
-  gap: 332px;
-
   align-items: center;
 }
 
@@ -132,11 +130,11 @@ img {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
   display: flex;
-  gap: 40px;
 }
 
 .address-link {
@@ -146,6 +144,10 @@ img {
       padding-top: 24px;
         padding-bottom: 24px;
 
+}
+
+.address-list-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address-link:hover,
@@ -246,6 +248,7 @@ img {
   background-color: #F4F4FD;
 
   padding: 120px 0;
+
 }
 
 .second-title {
@@ -263,6 +266,7 @@ img {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
